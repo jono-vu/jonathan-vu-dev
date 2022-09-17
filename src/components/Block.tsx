@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import useKeypress from "react-use-keypress";
 
 import { Blinker, Box, BoxProps } from "../components";
+import { constants } from "../config";
 
 const ALPHANUMERIC_CHAR_ARRAY =
   "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM".split("");
@@ -55,7 +56,7 @@ function resolveEmptyChildren(children: React.ReactNode) {
 function isCommandInput(children: React.ReactNode) {
   if (
     typeof children === `string` &&
-    children.startsWith(`[ https://jonathan-vu.dev ]:`)
+    children.startsWith(constants.COMMAND_PREFIX)
   ) {
     return true;
   }

@@ -1,3 +1,5 @@
+import { constants } from "../../config";
+
 const help = {
   input: "help",
   output: [
@@ -14,7 +16,7 @@ const help = {
     `credits        resources used to build this site`,
     `kill           stop program`,
     null,
-    `[ https://jonathan-vu.dev ]:`,
+    constants.COMMAND_PREFIX,
   ],
 };
 

@@ -1,3 +1,5 @@
+import { constants } from "../../config";
+
 const noMatch = {
   input: "*",
   output: [
@@ -5,7 +7,7 @@ const noMatch = {
     "!UNRECOGNISED COMMAND!",
     "type `help` for more commands",
     null,
-    `[ https://jonathan-vu.dev ]:`,
+    constants.COMMAND_PREFIX,
   ],
 };
 

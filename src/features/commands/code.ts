@@ -1,3 +1,5 @@
+import { constants } from "../../config";
+
 const code = {
   input: "code",
   output: [
@@ -12,7 +14,7 @@ const code = {
     "Repository:",
     "↳ https://github.com/jono-vu/music-app",
     null,
-    `[ https://jonathan-vu.dev ]:`,
+    constants.COMMAND_PREFIX,
   ],
 };
 

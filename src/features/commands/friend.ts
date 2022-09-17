@@ -1,3 +1,5 @@
+import { constants } from "../../config";
+
 const friend = {
   input: "friend",
   arguments: [
@@ -15,7 +17,7 @@ const friend = {
       null,
       "harrison doesn't have anything here yet...",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     flepio: [
       null,
@@ -29,14 +31,14 @@ const friend = {
       null,
       "Flepio has left the call.",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
-    jay: [null, "(╯°□°)╯︵ ┻━┻ ", null, `[ https://jonathan-vu.dev ]:`],
+    jay: [null, "(╯°□°)╯︵ ┻━┻ ", null, constants.COMMAND_PREFIX],
     joe: [
       null,
       "joe doesn't have anything here yet...",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     pin: [
       null,
@@ -81,25 +83,25 @@ const friend = {
       "`a:f====================================================================='",
 
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     santi: [
       null,
       "santi doesn't have anything here yet...",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     steph: [
       null,
       "steph doesn't have anything here yet...",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     tim: [
       null,
       "tim doesn't have anything here yet...",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
   },
   error: [
@@ -112,7 +114,7 @@ const friend = {
     "harrison, flepio, jay, joe, pin, santi, steph",
     "tim",
     null,
-    `[ https://jonathan-vu.dev ]:`,
+    constants.COMMAND_PREFIX,
   ],
 };
 

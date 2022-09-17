@@ -1,3 +1,5 @@
+import { constants } from "../../config";
+
 const theme = {
   input: "theme",
   arguments: [
@@ -18,42 +20,42 @@ const theme = {
       "avert your eyes...",
       "theme has been changed to Light Mode",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     dark: [
       null,
       "changing theme to Dark Mode...",
       "theme has been changed to Dark Mode",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     monokai: [
       null,
       "changing theme to Monokai...",
       "theme has been changed to Monokai",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     "one-dark": [
       null,
       "changing theme to Atom One Dark...",
       "theme has been changed to Atom One Dark",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     matrix: [
       null,
       "changing theme to the Matrix...",
       "theme has been changed to the Matrix",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     "high-contrast": [
       null,
       "changing theme to High Contrast...",
       "theme has been changed to High Contrast",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     red: [
       null,
@@ -61,21 +63,21 @@ const theme = {
       null,
       "theme has been changed to Red",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     abyss: [
       null,
       "changing theme to the Abyss...",
       "Theme has been changed to the Abyss",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
     github: [
       null,
       "changing theme to Github...",
       "theme has been changed to Github",
       null,
-      `[ https://jonathan-vu.dev ]:`,
+      constants.COMMAND_PREFIX,
     ],
   },
   effect: "CHANGE_THEME",
@@ -88,7 +90,7 @@ const theme = {
     "available colors:",
     "light, dark, monokai, one-dark, matrix, high-contrast, red, abyss, github",
     null,
-    `[ https://jonathan-vu.dev ]:`,
+    constants.COMMAND_PREFIX,
   ],
 };
 

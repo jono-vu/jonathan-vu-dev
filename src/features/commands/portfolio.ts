@@ -1,3 +1,5 @@
+import { constants } from "../../config";
+
 const portfolio = {
   input: "portfolio",
   output: [
@@ -5,7 +7,7 @@ const portfolio = {
     `Find my Design Portfolio (2017-2019) here:`,
     `↳ https://jonathan-vu.dev/portfolio`,
     null,
-    `[ https://jonathan-vu.dev ]:`,
+    constants.COMMAND_PREFIX,
   ],
 };
 

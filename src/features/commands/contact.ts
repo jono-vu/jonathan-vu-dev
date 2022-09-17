@@ -1,3 +1,5 @@
+import { constants } from "../../config";
+
 const contact = {
   input: "contact",
   output: [
@@ -7,7 +9,7 @@ const contact = {
     `It is currently ${getCurrentTime()} in Melbourne`,
     `I check my emails in the morning, not on weekends`,
     null,
-    `[ https://jonathan-vu.dev ]:`,
+    constants.COMMAND_PREFIX,
   ],
 };
 

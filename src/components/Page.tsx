@@ -49,6 +49,26 @@ const GlobalStyle = createGlobalStyle<{ colors: typeof utilsTheme["colors"] }>`
     border-radius: 20px;
     border: 3px solid ${({ colors }) => colors.bg};
   }
+
+  body {
+    margin: 0;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14pt;
+    line-height: 1.55;
+    letter-spacing: 0.015em;
+
+    overflow-x: hidden;
+  }
+
+  body .line-number::-moz-selection {
+    background: transparent;
+    color: inherit;
+  }
+
+  body .line-number::selection {
+    background: transparent;
+    color: inherit;
+  }
 `;
 
 const StyledPage = styled(Box)`

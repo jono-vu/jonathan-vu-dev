@@ -1,3 +1,4 @@
+import { changeTheme } from "../../storage";
 import {
   code,
   contact,
@@ -75,9 +76,9 @@ function parseEffect(effect?: string, commandArgument?: string) {
       }, 2000);
       break;
     case "CHANGE_THEME":
-      window.localStorage.setItem("theme", commandArgument || "dark");
-      window.dispatchEvent(new Event("storage"));
-
+      setTimeout(() => {
+        changeTheme(commandArgument || "dark");
+      }, 1000);
       break;
     default:
       return;

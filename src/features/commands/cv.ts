@@ -1,3 +1,5 @@
+import { constants } from "../../config";
+
 const cv = {
   input: "cv",
   output: [
@@ -5,7 +7,7 @@ const cv = {
     `Find my Resume/CV here:`,
     `↳ https://jonathan-vu.dev/cv`,
     null,
-    `[ https://jonathan-vu.dev ]:`,
+    constants.COMMAND_PREFIX,
   ],
 };
 

@@ -1,4 +1,4 @@
-import { Box, BoxProps } from "../components";
+import { Box, BoxProps } from "../elements";
 
 interface GridProps extends BoxProps {
   children: React.ReactNode;

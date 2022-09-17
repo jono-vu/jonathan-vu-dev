@@ -1,3 +1,5 @@
+import { constants } from "../../config";
+
 const credits = {
   input: "credits",
   output: [
@@ -5,7 +7,7 @@ const credits = {
     "font-family: IBM Plex Mono",
     "and a special thank you to my friends",
     null,
-    `[ https://jonathan-vu.dev ]:`,
+    constants.COMMAND_PREFIX,
   ],
 };
 
