@@ -11,7 +11,12 @@ const friend = {
     "tim",
   ],
   output: {
-    harrison: [null, "", null, `[ https://jonathan-vu.dev ]:`],
+    harrison: [
+      null,
+      "harrison doesn't have anything here yet...",
+      null,
+      `[ https://jonathan-vu.dev ]:`,
+    ],
     flepio: [
       null,
       "jon: what's happening @Flepio",
@@ -27,7 +32,12 @@ const friend = {
       `[ https://jonathan-vu.dev ]:`,
     ],
     jay: [null, "(╯°□°)╯︵ ┻━┻ ", null, `[ https://jonathan-vu.dev ]:`],
-    joe: [null, "", null, `[ https://jonathan-vu.dev ]:`],
+    joe: [
+      null,
+      "joe doesn't have anything here yet...",
+      null,
+      `[ https://jonathan-vu.dev ]:`,
+    ],
     pin: [
       null,
       ".========================================================================.",
@@ -73,9 +83,24 @@ const friend = {
       null,
       `[ https://jonathan-vu.dev ]:`,
     ],
-    santi: [null, "", null, `[ https://jonathan-vu.dev ]:`],
-    steph: [null, "", null, `[ https://jonathan-vu.dev ]:`],
-    tim: [null, "", null, `[ https://jonathan-vu.dev ]:`],
+    santi: [
+      null,
+      "santi doesn't have anything here yet...",
+      null,
+      `[ https://jonathan-vu.dev ]:`,
+    ],
+    steph: [
+      null,
+      "steph doesn't have anything here yet...",
+      null,
+      `[ https://jonathan-vu.dev ]:`,
+    ],
+    tim: [
+      null,
+      "tim doesn't have anything here yet...",
+      null,
+      `[ https://jonathan-vu.dev ]:`,
+    ],
   },
   error: [
     null,
