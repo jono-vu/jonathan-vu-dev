@@ -1,8 +1,8 @@
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 function trackPageView(path: string) {
   ReactGA.initialize(process.env.GOOGLE_ANALYTICS_MEASUREMENT_ID!);
-  ReactGA.pageview(path);
+  ReactGA.send({ hitType: "pageview", page: path });
 }
 
 interface TrackEventInput {
