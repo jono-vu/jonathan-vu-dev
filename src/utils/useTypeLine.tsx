@@ -21,7 +21,7 @@ function useTypeLine(line: string, options: TypeLineOptions) {
     }
 
     if (currentIdx === 0) {
-      const blankResult = "▊".repeat(line.length);
+      const blankResult = "█".repeat(line.length);
 
       const newResult = replaceAt(blankResult, currentIdx, line[currentIdx]);
       setResult(newResult);
