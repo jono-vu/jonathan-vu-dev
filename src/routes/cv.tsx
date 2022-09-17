@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 
 import fileDownload from "js-file-download";
 
+import { trackPageView } from "../analytics";
 import { Block, Box, Page } from "../components";
 
 import resume from "../assets/resume.pdf";
+
+trackPageView("/cv");
 
 const Cv = () => {
   const data = RESUME_DATA;

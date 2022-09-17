@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 
+import { trackPageView } from "../analytics";
 import { Block, Box, LineBlock, Page, TypingBlock } from "../components";
 import { constants } from "../config";
 import { parseCommand } from "../features";
 import { getPrevSession } from "../storage";
 import { getCurrentDateTime, scrollToBottom, useInterval } from "../utils";
 
+trackPageView("/");
 getPrevSession();
 
 const Landing = () => {

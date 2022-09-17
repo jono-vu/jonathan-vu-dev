@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import useKeypress from "react-use-keypress";
 
+import { trackEvent } from "../analytics";
 import { Blinker, Box, BoxProps } from "../components";
 import { constants } from "../config";
 
@@ -96,6 +97,7 @@ const CommandBlock: React.FC<CommandBlockProps> = ({ onCommand }) => {
         e.preventDefault();
 
         onCommand(commandInput);
+        trackEvent({ category: "command", action: commandInput });
       }}
     >
       <input

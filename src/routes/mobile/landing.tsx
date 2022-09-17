@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 
+import { trackPageView } from "../../analytics";
 import { Block, Box, LineBlock, Page } from "../../components";
 import { getPrevSessionMobile } from "../../storage";
 import { getCurrentDate, useInterval } from "../../utils";
 
+trackPageView("/");
 getPrevSessionMobile();
 
 const LandingMobile = () => {

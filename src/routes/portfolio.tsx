@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 
 import fileDownload from "js-file-download";
 
+import { trackPageView } from "../analytics";
 import { Block, Box, Page } from "../components";
 
 import portfolio from "../assets/portfolio.pdf";
+
+trackPageView("/portfolio");
 
 const Portfolio = () => {
   const data = PORTFOLIO_DATA;
