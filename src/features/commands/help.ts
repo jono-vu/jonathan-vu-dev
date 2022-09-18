@@ -11,7 +11,7 @@ const help = {
     `portfolio      generate link to my design portfolio`,
     `repo           generate link to this site's repository`,
     null,
-    `friend --ARG   secret commands that friends have requested`,
+    `friend --ARG   messages from my friends`,
     `theme --ARG    change color theme`,
     `credits        resources used to build this site`,
     `kill           stop program`,
