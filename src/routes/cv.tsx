@@ -14,7 +14,15 @@ const Cv = () => {
   const data = RESUME_DATA;
 
   useEffect(() => {
-    fileDownload(resume, "Jonathan Vu Resume 2022.pdf");
+    async function fetchResumeLink() {
+      await fetch(resume).then((res) =>
+        res
+          .blob()
+          .then((res) => fileDownload(res, "Jonathan Vu Resume 2022.pdf"))
+      );
+    }
+
+    fetchResumeLink();
   }, []);
 
   return (

@@ -14,7 +14,15 @@ const Portfolio = () => {
   const data = PORTFOLIO_DATA;
 
   useEffect(() => {
-    fileDownload(portfolio, "Jonathan Vu Portfolio 2019.pdf");
+    async function fetchPortfolioLink() {
+      await fetch(portfolio).then((res) =>
+        res
+          .blob()
+          .then((res) => fileDownload(res, "Jonathan Vu Portfolio 2019.pdf"))
+      );
+    }
+
+    fetchPortfolioLink();
   }, []);
 
   return (
