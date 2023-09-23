@@ -5,7 +5,7 @@ const portfolio = {
   output: [
     null,
     `Find my Design Portfolio (2017-2019) here:`,
-    `↳ https://jonathan-vu.dev/portfolio`,
+    `↳ https://jonathanvu.dev/portfolio`,
     null,
     constants.COMMAND_PREFIX,
   ],

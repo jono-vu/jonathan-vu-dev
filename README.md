@@ -1,6 +1,6 @@
 www for Jonathan Vu.  
-[https://www.jonathan-vu.dev](https://www.jonathan-vu.dev)
+[https://jonathanvu.dev](https://jonathanvu.dev)
 
 Bootstrapped with `create-react-app --template typescript`.  
 Styled with `styled-system`.  
-Deployed with *Vercel*.
+Deployed with _Vercel_.

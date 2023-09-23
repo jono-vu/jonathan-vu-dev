@@ -5,7 +5,7 @@ const cv = {
   output: [
     null,
     `Find my Resume/CV here:`,
-    `↳ https://jonathan-vu.dev/cv`,
+    `↳ https://jonathanvu.dev/cv`,
     null,
     constants.COMMAND_PREFIX,
   ],

@@ -1,5 +1,5 @@
 const constants = {
-  COMMAND_PREFIX: `[ https://www.jonathan-vu.dev ]:`,
+  COMMAND_PREFIX: `[ https://jonathanvu.dev ]:`,
 };
 
 export { constants };
